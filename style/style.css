@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Anonymous Pro', monospace;
+    color: #fff;
+    background-image: url("../images/output-onlinepngtools.png");
+    background-color: black;
+    background-position: 25% 25%;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.mainContainer{
+    padding: 5px;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+.submainContainer{
+    border-radius: 2px;
+    border-style: solid;
+    padding: 10px;
+
+    margin-top: 100px;
+    width: 60%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    background-color: rgba(12, 12, 12, 0.932);
+}
+
+.listContainer{
+    margin: 20px 0px 20px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+.mediaContainer{
+    display: flex;
+}
+
+.miniContainer{
+    margin: 0px;
+    padding: 0px;
+    transition: 0.3s;
+}
+
+.miniContainer p{
+    color:#ffffff00;
+    transition: 0.3s;
+}
+
+.miniContainer:hover{
+    border-bottom: #fff;
+    border-top: #ffffff00;
+    border-left:#ffffff00;
+    border-right: #ffffff00;
+    border-radius: 1px;
+    border-style: solid;
+    color: black;
+}
+
+
+
+
+li{
+    transition: 0.3s;
+    margin-right: 30px;
+    list-style-type: none;
+}
+li:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+.image{
+    width:85%;
+    height:85%;
+    margin: 10px;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+h4 {
+    background-color: #fff;
+    margin-right: 40px;
+    color: black;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
